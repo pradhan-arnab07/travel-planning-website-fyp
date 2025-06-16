@@ -1,0 +1,95 @@
+[
+  {
+    "name": "The Forest Hiker",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 37,
+    "price": 397,
+    "priceDiscount": 49,
+    "summary": "Breathtaking hike through the Canadian Banff National Park",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "171474090596518.jpg",
+    "images": [
+      "1714740906069g6.jpg",
+      "1714740906091g14.jpg",
+      "1714740906181g15.jpg"
+    ],
+    "startDates": [
+      "2021-04-25T10:00:00.000Z",
+      "2021-07-20T10:00:00.000Z",
+      "2021-10-05T10:00:00.000Z"
+    ]
+  },
+  {
+    "name": "Desert Safari Adventure",
+    "duration": 4,
+    "maxGroupSize": 20,
+    "difficulty": "medium",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 29,
+    "price": 299,
+    "priceDiscount": 30,
+    "summary": "Thrilling ride through the desert dunes with sunset views.",
+    "description": "Experience the vast beauty of the desert as you ride across dunes, enjoy cultural performances, and indulge in local cuisine. Perfect for adventure seekers and photographers.",
+    "imageCover": "1714741438941g16.jpg",
+    "images": [
+      "1714741439027g17.jpg",
+      "1714741569920g4.jpg",
+      "1714741569917mg1.jpg"
+    ],
+    "startDates": [
+      "2021-06-15T10:00:00.000Z",
+      "2021-09-10T10:00:00.000Z",
+      "2021-12-01T10:00:00.000Z"
+    ]
+  },
+  
+  {
+    "name": "Lakeside Serenity Trek",
+    "duration": 3,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 18,
+    "price": 199,
+    "priceDiscount": 20,
+    "summary": "Gentle hike around serene lakes and lush forests.",
+    "description": "Enjoy a calming journey through green trails and crystal-clear lakes, ideal for beginners and nature lovers. Great for bird-watching, photography, and mindful walking.",
+    "imageCover": "1714741799894g10.jpg",
+    "images": [
+      "1714741799913g17.jpg",
+      "1714741970661g11.jpg",
+      "1714741970699g12.jpg"
+    ],
+    "startDates": [
+      "2021-03-05T10:00:00.000Z",
+      "2021-08-15T10:00:00.000Z",
+      "2021-10-20T10:00:00.000Z"
+    ]
+  },
+  {
+    "name": "Jungle Wildlife Escape",
+    "duration": 6,
+    "maxGroupSize": 18,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 32,
+    "price": 489,
+    "priceDiscount": 50,
+    "summary": "Track exotic wildlife in a dense, tropical jungle adventure.",
+    "description": "Get close to nature’s wild side in a fully immersive safari-style jungle tour. Observe animals, hike through thick foliage, and enjoy guided eco-education sessions.",
+    "imageCover": "1714740952324g14.jpg",
+    "images": [
+      "3088305 1716205425420IMG_7065.jpg",
+      "2725562 1716205425482IMG_7070.jpg",
+      "3505922 1716205425531IMG_7071.jpg"
+    ],
+    "startDates": [
+      "2021-01-10T10:00:00.000Z",
+      "2021-04-18T10:00:00.000Z",
+      "2021-09-30T10:00:00.000Z"
+    ]
+  }
+]
