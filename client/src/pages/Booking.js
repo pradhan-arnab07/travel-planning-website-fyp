@@ -48,7 +48,7 @@ useEffect(() => {
 }, [toureData]);
   //Booking Fetch API 
   const getBooking = async()=>{
-    const res = await fetch(`http://127.0.0.1:8080/api/vi/tours/${id}`,{
+    const res = await fetch(`https://travel-planning-website-fyp-server.onrender.com/api/vi/tours/${id}`,{
       method:"GET",
       headers:{
         'Authorization': `Bearer ${token}`
@@ -85,7 +85,7 @@ useEffect(() => {
     }
     try{
       const {review} = message;
-      const res = await fetch('http://127.0.0.1:8080/api/vi/review',{
+      const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/review',{
       method:"POST",
       headers:{
         'Authorization': `Bearer ${token}`,
@@ -131,7 +131,7 @@ useEffect(() => {
   
     try {
       const { name, phone } = bookingTour;
-      const res = await fetch('http://127.0.0.1:8080/api/vi/bookings', {
+      const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/bookings', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
