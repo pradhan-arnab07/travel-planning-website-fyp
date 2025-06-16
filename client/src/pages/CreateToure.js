@@ -59,7 +59,7 @@ const uploadImage = (e)=>{
                     formData.append('images', image);
                 });
             }
-            const res = await fetch('http://127.0.0.1:8080/api/vi/tours',{
+            const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/tours',{
                 method:"POST",
                 headers:{
                     'Authorization': `Bearer ${token}`
