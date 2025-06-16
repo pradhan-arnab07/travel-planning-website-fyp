@@ -61,7 +61,7 @@ const Login = () => {
     formData.append('password', password);
     formData.append('passwordConform', passwordConform);
     //console.log(formData.name)
-    const res = await fetch('http://127.0.0.1:8080/api/vi/users/signup', {
+    const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/signup', {
         method:"POST",
         headers:{
             'Authorization': `Bearer ${YOUR_PERSONAL_TOKEN}`
@@ -102,7 +102,7 @@ const Login = () => {
     e.preventDefault()
     const {email, password} = userLogin;
     console.log(email)
-    const res = await fetch('http://127.0.0.1:8080/api/vi/users/login',{
+    const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/login',{
         method:"POST",
         headers:{
             "Content-Type": "application/json",
