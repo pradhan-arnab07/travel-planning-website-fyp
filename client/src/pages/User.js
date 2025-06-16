@@ -15,7 +15,7 @@ const User = () => {
 // get all user data     
     const User_data = async()=>{
         try{
-            const res = await fetch('http://127.0.0.1:8080/api/vi/users',{
+            const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users',{
                 method:"GET",
                 headers:{
                     'Authorization': `Bearer ${token}`,
@@ -62,7 +62,7 @@ const User = () => {
     // DELETE USER FROM API
     const delete_user = async(userID)=>{
         try{
-           const res = await fetch('http://127.0.0.1:8080/api/vi/users/'+userID,{
+           const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/'+userID,{
                 method:"DELETE",
                 headers:{
                     'Authorization': `Bearer ${token}`
