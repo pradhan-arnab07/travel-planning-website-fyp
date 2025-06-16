@@ -10,7 +10,7 @@ const Booking = () => {
     //get Review API
     const ReviewAll = async()=>{
         try{
-            const res = await fetch('http://127.0.0.1:8080/api/vi/bookings',{
+            const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/bookings',{
                 method:"GET",
                 headers:{
                     'Authorization': `Bearer ${token}`,
@@ -38,7 +38,7 @@ const Booking = () => {
     // DeleteBOOKING API
     const DeleteBooking = async(userId)=>{
       try{
-        const res = await fetch(`http://127.0.0.1:8080/api/vi/bookings/${userId}`,{
+        const res = await fetch(`https://travel-planning-website-fyp-server.onrender.com/api/vi/bookings/${userId}`,{
           method:"DELETE",
           headers:{
             'Authorization': `Bearer ${token}`
