@@ -28,7 +28,7 @@ const Imageslider = ({ images }) => {
         }}
       >
         {images.map((s,index) => {
-          return <img  src={`http://127.0.0.1:8080/uploads/toure/${s}`} alt={index} />;
+          return <img  src={`https://travel-planning-website-fyp-server.onrender.com/uploads/toure/${s}`} alt={index} />;
           
         })}
       </div>
