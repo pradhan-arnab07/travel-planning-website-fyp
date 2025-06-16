@@ -12,7 +12,7 @@ const Tour = () => {
     useEffect(()=>{
         const ToureData = async()=>{
             try{
-                const res = await fetch('http://127.0.0.1:8080/api/vi/tours',{
+                const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/tours',{
                     method:"GET",
                     headers:{
                         'Authorization': `Bearer ${token}`
@@ -58,7 +58,7 @@ const Tour = () => {
 <div className='relative'>
     <Link  to= {`/booking/${data.id}`}>
                     <img className="w-full h-96"
-                        src= {`http://127.0.0.1:8080/uploads/toure/${data.imageCover}`}
+                        src= {`https://travel-planning-website-fyp-server.onrender.com/uploads/toure/${data.imageCover}`}
                         alt="Sunset in the mountains"
                         />
                     <div
