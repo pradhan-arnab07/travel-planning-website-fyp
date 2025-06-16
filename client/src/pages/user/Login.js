@@ -24,7 +24,7 @@ const Login = () => {
   const [acount ,ToggleAccout] = useState('login')
   const [signup , Setsignup] = useState(SignUpValue)
   const [userLogin, SetuserLogin] = useState(LoginValue)
-  const [error , SetError] = useState('')
+ // const [error , SetError] = useState('')
 
   const SiginUp = ()=>{
    acount === 'signup' ? ToggleAccout("login") : ToggleAccout("signup")
