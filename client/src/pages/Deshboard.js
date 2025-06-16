@@ -27,7 +27,7 @@ const Deshboard = () => {
   //Logout Api
   const logout = async()=>{
     try{
-      const res = await fetch('http://127.0.0.1:8080/api/vi/users/logout',{
+      const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/logout',{
         method:"GET",
         headers:{
           "Content-Type": "application/json",
