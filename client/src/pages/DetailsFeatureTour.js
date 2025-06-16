@@ -10,7 +10,7 @@ const DetailsFeatureTour = () => {
   },[])
   const FTOneDetails = async()=>{
     try{
-      const res = await fetch(`http://127.0.0.1:8080/api/vi/featuretours/${id}`,{
+      const res = await fetch(`https://travel-planning-website-fyp-server.onrender.com/api/vi/featuretours/${id}`,{
         method:"GET",
         headers:{
           'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ const DetailsFeatureTour = () => {
   
   <div className="xl:w-2/6 lg:w-2/5 w-80 md:block hidden">
     {image.map((s,index)=>{ 
-    return <img className="w-full h-96 mt-5" alt="image of a girl posing" src={`http://127.0.0.1:8080/img/tours/${s}`} />
+    return <img className="w-full h-96 mt-5" alt="image of a girl posing" src={`https://travel-planning-website-fyp-server.onrender.com/img/tours/${s}`} />
     })}
   </div>
   <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6 ml-10">
