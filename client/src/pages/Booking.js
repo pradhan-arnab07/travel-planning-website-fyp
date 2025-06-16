@@ -225,7 +225,7 @@ useEffect(() => {
         return(
         <div className="p-3">
                     <div className="flex gap-3 items-center">
-                        <img src={`http://localhost:8080/${item.user.phote}`}
+                        <img src={`https://travel-planning-website-fyp-server.onrender.com/${item.user.phote}`}
                                 className="object-cover w-10 h-10 rounded-full border-2 border-emerald-400  shadow-emerald-400" />
                         <div className="font-medium text-purple-800">
                         {item.user.name}
