@@ -104,7 +104,7 @@ const User = () => {
  {currentUser ?(
     <div className="bg-red-50 shadow-xl rounded-lg h-96">
         <div className="photo-wrapper p-2">   
-        <img className="w-32 h-32 rounded-full mx-auto" src={`http://localhost:8080/${currentUser.phote}`} alt="John Doe" />
+        <img className="w-32 h-32 rounded-full mx-auto" src={`https://travel-planning-website-fyp-server.onrender.com/${currentUser.phote}`} alt="John Doe" />
         </div>
                <div className="p-2">
                <h3 className="text-center text-xl text-gray-900 font-medium leading-8">{currentUser.name}</h3>
