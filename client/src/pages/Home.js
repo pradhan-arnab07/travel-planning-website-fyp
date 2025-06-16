@@ -31,7 +31,7 @@ const Home = () => {
 //Fetech Feature Tour data from API 
   const FeatureTour = async()=>{
     try{
-      const res = await fetch('http://127.0.0.1:8080/api/vi/featuretours', {
+      const res = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/featuretours', {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
@@ -126,7 +126,7 @@ const Home = () => {
 <div className="bg-white rounded-lg overflow-hidden mt-5 ml-6" key={index}>
 <div className='relative' >
                     <img  className=" h-96 w-96"
-                        src= {`http://127.0.0.1:8080/img/tours/${data.imageCover}`}
+                        src= {`https://travel-planning-website-fyp-server.onrender.com/img/tours/${data.imageCover}`}
                         alt="Sunset in the mountains"
                         />
                     <div
