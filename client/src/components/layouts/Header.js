@@ -15,7 +15,7 @@ const Header = () => {
 
   const logout = async()=>{
     try{
-      const res = await  fetch('http://127.0.0.1:8080/api/vi/users/logout',{
+      const res = await  fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/logout',{
         method:"GET",
         headers:{
           "Content-Type": "application/json",
@@ -37,7 +37,7 @@ const Header = () => {
   //user data
   const curent_user = async()=>{
     try{
-      const res  = await fetch('http://127.0.0.1:8080/api/vi/users/me',{
+      const res  = await fetch('https://travel-planning-website-fyp-server.onrender.com/api/vi/users/me',{
       method:"GET",
       headers:{
         'Authorization': `Bearer ${token}`
@@ -115,7 +115,7 @@ const Header = () => {
     {isLogedIn &&(
       <>
       <div className="flex items-center mr-4">
-          <img src={`http://127.0.0.1:8080/${userprofile.phote}`} alt="User Avatar" className="w-8 h-8 rounded-full mr-2" />
+          <img src={`https://travel-planning-website-fyp-server.onrender.com/${userprofile.phote}`} alt="User Avatar" className="w-8 h-8 rounded-full mr-2" />
           <span className="font-semibold">{userprofile.name}</span>
       </div>
 
